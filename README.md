@@ -91,8 +91,9 @@ O gráfico abaixo compara os valores reais e previstos pelo modelo:
 
 ![download (5)](https://github.com/user-attachments/assets/77476656-c26d-445c-ba83-d363f87990f2)
 
+O gráfico "Reais vs. Previstos" demonstra que o modelo de árvore de decisão apresenta uma boa capacidade de previsão dos salários, com poucas dispersões. A análise desse gráfico auxilia na avaliação da performance do modelo e na identificação de possíveis áreas de aprimoramento.
 
-## 4. Conclusão e Próximos Passos
+## 4. Conclusão
 
 - **Conclusão:** O modelo apresentou um desempenho robusto, com um R² elevado e métricas de erro dentro de uma faixa aceitável. As variáveis idade, gênero, nível educacional e anos de experiência mostraram-se preditoras relevantes para o salário.
 A análise revela como características individuais, como idade e nível educacional, estão fortemente relacionadas aos salários. Profissionais com maior experiência e formação avançada (como mestrado e doutorado) tendem a receber salários mais elevados, enquanto o impacto do gênero ainda é perceptível em algumas faixas salariais. Essa visualização dos dados permite que empresas identifiquem potenciais desigualdades e promovam estratégias mais justas de remuneração.
