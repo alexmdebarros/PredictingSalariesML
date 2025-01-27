@@ -16,6 +16,29 @@ A base de dados utilizada (“SalaryData.csv”) possui a seguinte estrutura:
 
 A coluna `Job Title` foi descartada devido ao alto número de valores únicos, o que poderia introduzir ruído no modelo e dificultar a interpretação dos resultados mas futuramente pretendo trabalhar em cima dessa coluna e aperfeiçoar o modelo.
 
+## 1.1. Gráficos Gerados
+
+![dist-por-genero](https://github.com/alexmdebarros/PredictingSalariesML/blob/main/dist-por-genero.png)
+
+No grafico acima podemos perceber que o publico masculino (52%) é um pouco maior que o feminino (48%).
+Baseado nisso gerei um grafico mostrando a média salarial por sexo.
+
+![media-por-genero](https://github.com/alexmdebarros/PredictingSalariesML/blob/main/media-por-genero.png)
+
+No grafico acima percebemos que a média salarial do genero masculino é de 103.867,78 por ano enquanto o feminino é de 97.011,17, uma diferença de 6.856,61 que talvez possa ser influenciada pela quantidade maior de pessoas do sexo masculino.
+
+![dist-por-nivel-academico](https://github.com/alexmdebarros/PredictingSalariesML/blob/main/distr-por-nivel-academico.png)
+
+O gráfico mostra a importância da educação como um fator determinante para a remuneração. Profissionais com pós-graduação (mestrado e doutorado) tendem a ter salários mais elevados e uma menor dispersão salarial em comparação aos bacharéis. No entanto, profissionais com nivel mais alto com PhD tendem a ter maiores salários mas com uma dispersão maior.
+
+![dist-por-tempo](https://github.com/alexmdebarros/PredictingSalariesML/blob/main/media-por-tempo.png)
+
+O gráfico demonstra que a experiência é um fator importante para a remuneração, mas não o único. Perceber isso em alguns picos de alta principalmente acima dos 15 anos de experiência.
+
+![dist-por-idade](https://github.com/alexmdebarros/PredictingSalariesML/blob/main/media-por-idade.png)
+
+O gráfico demonstra que a idade é um fator que influencia a remuneração, com a tendência de aumento da média salarial talvez ligada também ao tempo de experiência.
+
 ## 2. Modelagem
 
 A modelagem foi baseada nas seguintes etapas:
